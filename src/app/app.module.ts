@@ -2,10 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
+import { MainComponent } from './main/main.component';
+import { HeaderComponent } from './main/header/header.component';
+import { SkillsComponent } from './main/skills/skills.component';
+import { ContactComponent } from './main/contact/contact.component';
+import { ProyectsComponent } from './main/proyects/proyects.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent,
+    HeaderComponent,
+    SkillsComponent,
+    ContactComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,

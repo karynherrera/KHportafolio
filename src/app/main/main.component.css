@@ -1,0 +1,27 @@
+body{
+  background-color: white;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+
+app-header{
+  border:0%;
+  margin: 0%;
+  padding: 0%;
+}
+app-skills{
+  border:0%;
+  margin: 0%;
+  padding: 0%;
+}
+app-proyects{
+  border:0%;
+  margin: 0%;
+  padding: 0%;
+}
+app-contact{
+  border:0%;
+  margin: 0%;
+  padding: 0%;
+}

@@ -1,0 +1,18 @@
+.backgContact{
+  width:100%;
+  height:500px;
+  background: url('../../../assets/contact.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  box-shadow:0 0 0 0; 
+  position: relative;
+  top:20%;
+}
+
+#contact{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 45%;
+  top: 15%;
+}
