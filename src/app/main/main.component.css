@@ -3,6 +3,7 @@ body{
   padding: 0%;
   margin: 0%;
   border: 0%;
+  
 }
 
 app-header{
@@ -25,3 +26,4 @@ app-contact{
   margin: 0%;
   padding: 0%;
 }
+

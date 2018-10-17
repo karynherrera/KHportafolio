@@ -5,14 +5,208 @@
   background-repeat:no-repeat;
   background-size:cover;
   box-shadow:0 0 0 0; 
-  position: relative;
-  top:20%;
+  position: absolute;
+  top:150%;
 }
 
 #contact{
   color: white;
   font-size: 50px;
   position: absolute;
-  left: 45%;
-  top: 15%;
+  left: 20%;
+  top: 50%;
+  display: inline;
+}
+
+.contactLink{
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+.fa-phone{
+  transform: rotateY(-180deg);
+  position: absolute;
+  left:-45%;
+}
+
+i{
+  color: white;
+  font-size: 50px;
+  z-index: 99999;
+  margin-right: 5%;
+  position: absolute;
+  left: -35%;
+  top: 0%;
+}
+
+/* carta*/ 
+div.business-card {
+  position: absolute;
+  top:-10%;
+	height: 255px;
+  width: 427px;
+  margin-left: 255px/-2;
+  margin-top: 427px/-2;
+  
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  perspective: 1000;
+}
+
+div.business-card:hover .flipper, .hover .flipper {
+  transform: rotateY(180deg) rotateZ(90deg);
+}
+
+div.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+  transform-origin: center 255px/-2;
+}
+
+div.front, div.back {
+  backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+  height: 255px;
+  width: 427px;
+ 
+	box-shadow: 0 0 50px rgba(0,0,0,0.75);
+}
+
+div.front {
+  background-color: white;
+  z-index: 0;
+}
+
+div.front:before, :after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 255px/2;
+  border-style: solid;
+  border-color: transparent;
+}
+
+div.front:before {
+  border-top-color: blue;
+  border-left-color: lightblue;
+  z-index: 2;
+}
+
+div.front:after {
+  border-top-color: darkblue;
+  border-right-color: darkblue;
+}
+
+div.front:div.name {
+  position: absolute;
+  bottom: (400px - 255px)/2;
+  left: (400px - 150px) / 2;
+}
+
+span {
+  display: block;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+span.first {
+  color: darkblue;
+}
+
+span.last {
+  color: lightblue;
+}
+
+span.title {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+div.back {
+  background-color: darkblue;
+  color: white;
+  width: 427px;
+  height: 255px;
+  box-sizing: border-box;
+  transform: rotateY(180deg) rotateZ(90deg);
+  position: relative;
+  transform-origin: center 255px/-2;
+}
+
+div.container-sm {
+  float: left;
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+
+div.container-lg {
+  float: left;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+figure.logo-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: -60px -60px;
+
+}
+
+figure.logo-white:before, :after {
+  display: block;
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
+}
+
+figure.logo-white:before {
+  top: 0;
+  left: 0;
+  border-width: 60px;
+  border-top-color: white;
+  border-left-color: white;
+  z-index: 2;
+}
+
+figure.logo-white:after {
+  bottom: 0;
+  right: 0;
+  border-width: 56px;
+  border-right-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul.social {
+  font-size: 1.25rem;
+  
+}
+
+li {
+  margin-top: 1rem;
+}
+
+li:first-child {
+  margin-top: 2rem;
 }
