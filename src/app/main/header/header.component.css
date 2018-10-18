@@ -5,7 +5,7 @@
 }
 .backg{
   width:100%;
-  height:650px;
+  height:700px;
   background: url('../../../assets/headerImg.png');
   background-repeat:no-repeat;
   background-position:center;
@@ -13,12 +13,6 @@
   box-shadow:0 0 0 0; 
 }
 
-.imgPerfil{
-  width: 12%;
-  position: absolute;
-  left: 13%;
-  top:10%;
-}
 
 #skills{
   color: black;
@@ -28,7 +22,7 @@
 }
 .skillsImg{
   position: absolute;
-  top: 51%;
+  top: 56%;
   width: 10%;
 }
 #html{
@@ -51,41 +45,41 @@
   position: absolute;
   left: 34%;
   width: 10.5%;
-  top: 52%;
+  top: 57%;
 }
 #firebase{
   position: absolute;
   left: 47%;
-  top: 52%;
+  top: 57%;
   width: 11%;
 }
 #node{
   position: absolute;
   left: 60%;
   width: 9%;
-  top: 52%;
+  top: 57%;
 }
 #bootstrap{
   position: absolute;
   left: 71%;
   width: 11.5%;
-  top: 52%;
+  top: 57%;
 }
 #angular{
   position: absolute;
   left: 84%;
   width: 9.5%;
-  top: 52%;
+  top: 57%;
 }
 
 #developer{
   font-family: 'Franklin Gothic Medium';
   font-size: 50px;
-  text-align: left;
+  text-align: center;
   color: white;
   position: absolute;
   left: 32%;
-  top:28%;
+  top:24%;
   white-space: nowrap;
   overflow: hidden;
   width: 0;
@@ -97,8 +91,8 @@
   font-size: 22px;
   text-align: left;
   position: absolute;
-  left: 0%;
-  top:39%;
+  left: 15%;
+  top:37%;
   color: white;
   white-space: nowrap;
   overflow: hidden;
@@ -112,8 +106,22 @@
   font-size: 22px;
   text-align: left;
   position: absolute;
-  left: 0%;
-  top:43%;
+  left: 15%;
+  top:41%;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+#aboutMe3{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 22px;
+  text-align: left;
+  position: absolute;
+  left: 15%;
+  top:45%;
   color: white;
   white-space: nowrap;
   overflow: hidden;
@@ -149,23 +157,22 @@
   width: 100%;
 }
 
+span {
+  color: #fff;
+  font-weight: bold;
+}
 
 #name{
   font-family: 'Franklin Gothic Medium';
   margin-left: -2.5em;
   font-size: 6.25em;
-  text-align: left;
+  text-align: center;
   position: absolute;
-  top: 7%;
-  left: 50%;
+  top: 5%;
+  left: 36%;
   white-space: nowrap;
   overflow: hidden;
   width: 0;
-}
-
-span {
-  color: #fff;
-  font-weight: bold;
 }
 
 .line1 {
@@ -185,10 +192,10 @@ span {
 
 .line2 {
   color: white;
-  -webkit-animation: type .5s 3.25s steps(20, end) forwards;
-  -moz-animation: type .5s 3.25s steps(20, end) forwards;
-  -o-animation: type .5s 3.25s steps(20, end) forwards;
-  animation: type .5s 3.25s steps(20, end) forwards;
+  -webkit-animation: type .2s 2.25s 2 steps(20, end) forwards;
+  -moz-animation: type .2s 2.25s 2 steps(20, end) forwards;
+  -o-animation: type .2s 2.25s 2 steps(20, end) forwards;
+  animation: type .2s 2.25s 2 steps(20, end) forwards;
 }
 
 .cursor2 {
@@ -200,32 +207,47 @@ span {
 
 .line3 {
   color: white;
-  -webkit-animation: typeDelay .5s 5.5s steps(20, end) forwards;
-  -moz-animation: typeDelay .5s 5.5s steps(20, end) forwards;
-  -o-animation: typeDelay .5s 5.5s steps(20, end) forwards;
-  animation: typeDelay .5s 5.5s steps(20, end) forwards;
+  -webkit-animation: typeDelay .3s 4.5s steps(20, end) forwards;
+  -moz-animation: typeDelay .3s 4.5s steps(20, end) forwards;
+  -o-animation: typeDelay .3s 4.5s steps(20, end) forwards;
+  animation: typeDelay .3s 4.5s steps(20, end) forwards;
 }
 
 .cursor3 {
+  -webkit-animation: blink 1s 4.5s 2 forwards;
+  -moz-animation: blink 1s 4.5s 2 forwards;
+  -o-animation: blink 1s 4.5s 2 forwards;
+  animation: blink 1s 4.5s 2 forwards;
+}
+
+.line4 {
+  color: white;
+  -webkit-animation: typeDelay .4s 5.5s steps(20, end) forwards;
+  -moz-animation: typeDelay .4s 5.5s steps(20, end) forwards;
+  -o-animation: typeDelay .4s 5.5s steps(20, end) forwards;
+  animation: typeDelay .4s 5.5s steps(20, end) forwards;
+}
+
+.cursor4 {
   -webkit-animation: blink 1s 5.5s 2 forwards;
   -moz-animation: blink 1s 5.5s 2 forwards;
   -o-animation: blink 1s 5.5s 2 forwards;
   animation: blink 1s 5.5s 2 forwards;
 }
 
-.line4 {
+.line5 {
   color: white;
-  -webkit-animation: typeDelay .6s 8.5s steps(20, end) forwards;
-  -moz-animation: typeDelay .6s 8.5s steps(20, end) forwards;
-  -o-animation: typeDelay .6s 8.5s steps(20, end) forwards;
-  animation: typeDelay .6s 8.5s steps(20, end) forwards;
+  -webkit-animation: typeDelay .5s 6.5s steps(20, end) forwards;
+  -moz-animation: typeDelay .5s 6.5s steps(20, end) forwards;
+  -o-animation: typeDelay .5s 6.5s steps(20, end) forwards;
+  animation: typeDelay .5s 6.5s steps(20, end) forwards;
 }
 
-.cursor4 {
-  -webkit-animation: blink 1s 8.5s infinite;
-  -moz-animation: blink 1s 8.5s infinite;
-  -o-animation: blink 1s 8.5s infinite;
-  animation: blink 1s 8.5s infinite;
+.cursor5 {
+  -webkit-animation: blink 1s 6.5s infinite;
+  -moz-animation: blink 1s 6.5s infinite;
+  -o-animation: blink 1s 6.5s infinite;
+  animation: blink 1s 6s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -328,24 +350,24 @@ span {
 
 @-webkit-keyframes typeDelay {
   to {
-    width: 54.3em;
+    width: 50em;
   }
 }
 
 @-moz-keyframes typeDelay {
   to {
-    width: 54.3em;
+    width: 50em;
   }
 }
 
 @-o-keyframes typeDelay {
   to {
-    width: 54.3em;
+    width: 50em;
   }
 }
 
 @keyframes typeDelay {
   to {
-    width: 54.3em;
+    width: 50em;
   }
 }
