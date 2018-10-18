@@ -79,24 +79,45 @@
 }
 
 #developer{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   color: white;
   position: absolute;
   left: 32%;
   top:28%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
 }
 #aboutMe{
   margin-left: 3%;
   margin-right: 3%;
   font-family: 'Franklin Gothic Medium';
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
   position: absolute;
   left: 0%;
-  top:41%;
+  top:39%;
   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+#aboutMe2{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 22px;
+  text-align: left;
+  position: absolute;
+  left: 0%;
+  top:43%;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
 }
 
 .btnM{
@@ -130,13 +151,13 @@
 
 
 #name{
+  font-family: 'Franklin Gothic Medium';
+  margin-left: -2.5em;
+  font-size: 6.25em;
+  text-align: left;
   position: absolute;
   top: 7%;
   left: 50%;
-  margin-left: -2.5em;
-  text-align: left;
-  font-size: 6.25em;
-  font-family: 'Franklin Gothic Medium';
   white-space: nowrap;
   overflow: hidden;
   width: 0;
@@ -160,6 +181,51 @@ span {
   -moz-animation: blink 1s 2s 2 forwards;
   -o-animation: blink 1s 2s 2 forwards;
   animation: blink 1s 2s 2 forwards;
+}
+
+.line2 {
+  color: white;
+  -webkit-animation: type .5s 3.25s steps(20, end) forwards;
+  -moz-animation: type .5s 3.25s steps(20, end) forwards;
+  -o-animation: type .5s 3.25s steps(20, end) forwards;
+  animation: type .5s 3.25s steps(20, end) forwards;
+}
+
+.cursor2 {
+  -webkit-animation: blink 1s 5s 1 forwards;
+  -moz-animation: blink 1s 5s 1 forwards;
+  -o-animation: blink 1s 5s 1 forwards;
+  animation: blink 1s 5s 1 forwards;
+}
+
+.line3 {
+  color: white;
+  -webkit-animation: typeDelay .5s 5.5s steps(20, end) forwards;
+  -moz-animation: typeDelay .5s 5.5s steps(20, end) forwards;
+  -o-animation: typeDelay .5s 5.5s steps(20, end) forwards;
+  animation: typeDelay .5s 5.5s steps(20, end) forwards;
+}
+
+.cursor3 {
+  -webkit-animation: blink 1s 5.5s 2 forwards;
+  -moz-animation: blink 1s 5.5s 2 forwards;
+  -o-animation: blink 1s 5.5s 2 forwards;
+  animation: blink 1s 5.5s 2 forwards;
+}
+
+.line4 {
+  color: white;
+  -webkit-animation: typeDelay .6s 8.5s steps(20, end) forwards;
+  -moz-animation: typeDelay .6s 8.5s steps(20, end) forwards;
+  -o-animation: typeDelay .6s 8.5s steps(20, end) forwards;
+  animation: typeDelay .6s 8.5s steps(20, end) forwards;
+}
+
+.cursor4 {
+  -webkit-animation: blink 1s 8.5s infinite;
+  -moz-animation: blink 1s 8.5s infinite;
+  -o-animation: blink 1s 8.5s infinite;
+  animation: blink 1s 8.5s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -236,24 +302,50 @@ span {
 
 @-webkit-keyframes type {
   to {
-    width: 17em;
+    width: 9em;
   }
 }
 
 @-moz-keyframes type {
   to {
-    width: 17em;
+    width: 9em;
   }
 }
 
 @-o-keyframes type {
   to {
-    width: 17em;
+    width: 9em;
   }
 }
 
 @keyframes type {
   to {
-    width: 17em;
+    width: 9em;
+  }
+}
+
+/*type parrafo largo*/
+
+@-webkit-keyframes typeDelay {
+  to {
+    width: 54.3em;
+  }
+}
+
+@-moz-keyframes typeDelay {
+  to {
+    width: 54.3em;
+  }
+}
+
+@-o-keyframes typeDelay {
+  to {
+    width: 54.3em;
+  }
+}
+
+@keyframes typeDelay {
+  to {
+    width: 54.3em;
   }
 }
