@@ -6,18 +6,34 @@
   background-size:cover;
   box-shadow:0 0 0 0; 
   position: absolute;
-  top:150%;
+  top:180%;
 }
 
 #contact{
   color: white;
   font-size: 50px;
   position: absolute;
-  left: 20%;
-  top: 50%;
+  left: 13%;
+  top: 35%;
   display: inline;
 }
 
+#parrafito1{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 10%;
+  top: 56%;
+  display: block;
+}
+#parrafito2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  display: block;
+}
 .contactLink{
   color: white;
   font-size: 20px;
@@ -50,14 +66,14 @@ i{
 /* carta*/ 
 div.business-card {
   position: absolute;
-  top:-10%;
+  top:-30%;
 	height: 255px;
   width: 427px;
   margin-left: 255px/-2;
   margin-top: 427px/-2;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 40%;
+  left: 60%;
   perspective: 1000;
 }
 
@@ -224,4 +240,21 @@ li {
 
 li:first-child {
   margin-top: 2rem;
+}
+
+.fakeBtn{
+  position: absolute;
+  background-color: #BD081C;
+  color: white;
+  border: none;
+  width: 30%;
+  margin-left: 5%;
+  padding: 1%;
+  border-radius: 6px;
+  bottom: 10%;
+  left: 5%;
+  z-index: 9999;
+  font-size: 100%;
+  cursor: pointer;
+  text-align: center;
 }

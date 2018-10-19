@@ -11,9 +11,16 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit() {
     
-$('#circleDrop').hover(function(){
+$('#circleDrop').click(function(){
   $('.card-middle').slideToggle();
-  $('.close').toggleClass('closeRotate');
+});
+
+$('#circleDrop2').click(function(){
+  $('.card-middle2').slideToggle();
+});
+
+$('#circleDrop3').click(function(){
+  $('.card-middle3').slideToggle();
 });
 
   }
