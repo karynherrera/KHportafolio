@@ -258,3 +258,71 @@ li:first-child {
   cursor: pointer;
   text-align: center;
 }
+
+/*media querys*/
+@media only screen and (max-width: 600px) {
+  .backgContact{
+    top:105%;
+  }
+  #contact{
+    font-size: 1.5em;
+    left: 38%;
+    top:20%;
+  }
+  i{
+    font-size:1.2em;
+    left: -50%;
+  }
+  #parrafito1{
+    top:28%;
+    font-size:1em;
+  } 
+  #parrafito2{
+    top:35%;
+    font-size:1em;
+  }
+  .fakeBtn{
+    left: 30%;
+    bottom: 3%;
+  }
+  div.business-card{
+    top:50%;
+    left: 5%;
+    width: 314px;
+    height: 150px;
+    perspective: 1000;
+  }
+  span.first {
+    display: none;
+  }
+  span.last {
+    font-size: 25px;
+    top:60%;
+  }
+
+  div.front, div.back {
+    width: 314px;
+    height: 195px;
+  }
+  .imgPerfil{
+    left: 40%;
+    top: 15%;
+  }
+  ul.social {
+    font-size: 1.1rem; 
+    left: -10%;
+  }
+  li:first-child {
+    margin-top: -1rem;
+  }
+  li {
+    margin-top: 1rem;
+    margin-left: -0.5rem;
+  }
+  .fa-phone{
+    left:-50%;
+  }
+  .icons{
+    margin-left: 12%;
+  }
+}

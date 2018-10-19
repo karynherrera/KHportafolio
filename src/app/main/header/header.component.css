@@ -128,6 +128,10 @@
   width: 0;
 }
 
+#aboutMeMedia{
+  display: none;
+}
+
 .btnM{
   color:white;
   cursor: pointer;
@@ -369,5 +373,74 @@ span {
 @keyframes typeDelay {
   to {
     width: 50em;
+  }
+}
+/*MEDIA QUERYS*/
+@media only screen and (max-width: 600px) {
+  .backg{
+    height:42%;
+  }
+  #name{
+    font-size: 2.5em;
+    left:30%;
+  }
+  #developer{
+    font-size: 1.5em;
+    top:11%;
+    left:22%;
+  }
+  #aboutMeMedia{
+    position: absolute;
+    display: block;
+    font-size: 0.8em;
+    top:15%;
+    left:6%;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+
+  #aboutMe, #aboutMe2, #aboutMe3{
+    display: none;
+  } 
+  .skillsImg{
+    top: 25%;
+    width: 10%;
+  }
+  #api, #firebase, #node, #bootstrap, #angular{
+    top:25%;
+  }
+  
+}
+
+.lineM{
+  color: white;
+  -webkit-animation: typeM .3s 4.5s steps(20, end) forwards;
+  -moz-animation: typeM .3s 4.5s steps(20, end) forwards;
+  -o-animation: typeM .3s 4.5s steps(20, end) forwards;
+  animation: typeM .3s 4.5s steps(20, end) forwards;
+}
+@-webkit-keyframes typeM {
+  to {
+    width: 25em;
+  }
+}
+
+@-moz-keyframes typeM {
+  to {
+    width: 25em;
+  }
+}
+
+@-o-keyframes typeM {
+  to {
+    width: 25em;
+  }
+}
+
+@keyframes typeM {
+  to {
+    width: 25em;
   }
 }
